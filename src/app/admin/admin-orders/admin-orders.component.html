@@ -1,0 +1,4 @@
+<h1>admin order component</h1>
+<ng-container *ngIf="orders$ | async as orders">
+    <orders-details [orders-list]="orders"></orders-details>
+</ng-container>

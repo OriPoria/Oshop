@@ -1,0 +1,17 @@
+<h1>Orders</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let order of myOrderList">
+            <th> {{ order.Name }}</th>
+            <th> {{ order.Date }}</th>
+        </tr>
+    </tbody>
+</table>
+<button (click)="t()" class="btn">btn</button>

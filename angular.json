@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -87,9 +88,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/datatables.net-dt/css/jquery.dataTables.css"
             ],
-            "scripts": []
+            "scripts": [            
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"]
           }
         },
         "lint": {
@@ -120,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "oshop"
+  "defaultProject": "oshop",
+  "cli": {
+    "analytics": "ced41019-fd56-4319-8899-b3dcf96a29dc"
+  }
 }
